@@ -1,0 +1,220 @@
+
+
+       
+ul {
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+li {
+    text-align: center;
+    background-color: rgb(2,92,128);
+    line-height:50px;
+    font-size:35px;
+    color: rgb(255, 109, 81);
+    font-family: 'Raleway', sans-serif;
+}
+
+li:hover {
+    background-color: rgb(255,255,255);
+    color:rgb(2,92,128);
+    text-align: center;
+}
+
+            
+h1 {
+    color: rgb(2,92,128)
+    line-height:50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 53px;
+    text-align: center;
+}
+            
+h2 {
+    color: rgb(0,0,0);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: rgb(243, 243, 243);
+}
+
+h3 {
+    color: rgb(2,92,128);
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(128,127,131);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+
+p {
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+.hide {
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+}
+
+.show {
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.ib {
+    text-align: center;
+    
+}
+.i2 {
+    width: auto;
+    height: auto;
+}
+.i3 {
+    text-align: center
+}
+
+.i4 {
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+
+}
+            
+.about1 {
+                width: 50%;
+                height: auto;
+    
+            }            
+            
+.about2 {
+            width: 50%;
+        height: auto;
+}
+
+body {
+    background-color: #a7b6bd;
+}
+ 
+table, tr, td, th { 
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Lucida Grande', sans-serif;
+    
+}
+
+.cuisine {
+    width:33%;
+        height: auto;
+}
+.dvd {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.richbrian {
+    width: 50%;
+    height: auto;
+    
+}
+
+#btn {
+        position: fixed;
+        font-family:'Lucida Grande', sans-serif;
+        bottom: 10px;
+        float: right;
+        right: 10%;
+        left: 90%;
+        max-width: 50px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: black;
+        padding: .5px;
+        border-radius: 4px;
+        
+
+    }
+    #btn:hover {
+        background-color: rgb(2,92,128);
+    }
+ 
+.animation {
+	pointer-events: none;
+}
+
+.animation > * {
+        animation: fly 30s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+* {
+border: solid 2px red;
+}
+input {
+border: solid 2px orange;
+}
+input[type=text] {
+border: solid 2px green;
+}
+input.contact {
+border: solid 2px blue;
+}
+        
+ 
